@@ -18,5 +18,7 @@ Get an api with memes, access memes, click function to see the meme, click to fa
 
 
 ## How to use
-*Fork and clone
-*Open the index.html
+* Fork and clone
+* Open the index.html
+* Check out my blog for more detailed information on the iterators I used! 
+* https://medium.com/@jbmanley45/javascript-array-method-find-58224cf99fd0
