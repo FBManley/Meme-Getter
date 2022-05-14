@@ -1,5 +1,5 @@
 # Meme-Getter
-Get an api with memes, access memes, click function to see the meme, click to favorite
+Get an api with memes, access memes, click function to see the meme, click to see meme url. 
 
 # MVP 
 * Meme API
