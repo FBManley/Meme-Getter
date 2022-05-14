@@ -1,17 +1,16 @@
 # Meme-Getter
 Get an api with memes, access memes, click function to see the meme, click to favorite
+
 # MVP 
 * Meme API
-* List random meme (DOMContenetLoaded)
-* List new random meme (click)
-* Comment on meme (submit) (would need json server)
-
-# Features
-* favorite memes (click)
+* List all fetched memes (DOMContenetLoaded)
+* List selected memes URL (click on listed meme)
+* Button to return to homepage and load all memes ('Back To Home')
+* Button to change color of URL text ('Look Up' click)
 
 
 # Phase 1 Project
-'M' is a single page application integrating JavaScript, HTML, CSS that communicates with a public APi ____________ that allows the user to retrieve and display random 
+'MEME GETTER' is a single page application integrating JavaScript, HTML, CSS that communicates with a public APi https://imgflip.com/api that allows the user to retrieve and display memes and their URL's.
 
 ## Requirements
 * json-server installed
