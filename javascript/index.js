@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 renderHome();
 })
 
-//fetch meme list page- 
 function renderHome(){
     fetch(BASE_URL)
     .then(response => response.json())
@@ -13,8 +12,6 @@ function renderHome(){
       memes = data 
     displayMemes()
     }) 
-    //filter for url: key
-    //display urls so they can be filtered
 }  
 
 function displayMemes(){
@@ -30,7 +27,7 @@ function displayMemes(){
     ul.addEventListener('click', displayMeme)
    
 }
-//  display url
+
 function displayMeme(event){
   console.log(event.target.id)
   const ul = document.getElementById("memelistpage")
@@ -44,6 +41,7 @@ function displayMeme(event){
   document.getElementById('homepagelink').addEventListener('click', displayMemes)
   lookUp()
 }
+
 function lookUp(){
     document.querySelector("#look").addEventListener('dblclick', runRed)
     document.querySelector("#look").addEventListener('click', runBlue)
